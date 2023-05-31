@@ -57,9 +57,6 @@ function getTotalSupply() {
 }
 
 // call your functions below this line
-getTotalSupply();
-
-listNFTs();
 
 mintNFT('Sarah', 'This is the first NFT');
 mintNFT('Joan', 'This is the second NFT');
@@ -68,3 +65,7 @@ mintNFT('Elvis', 'This is the third NFT');
 console.log(holdNfts[0]);
 console.log(holdNfts[1]);
 console.log(holdNfts[2]);
+
+getTotalSupply();
+
+listNFTs();
